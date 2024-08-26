@@ -1,0 +1,47 @@
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    background-color: red;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-photo {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+.info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.link-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+
+}
+
+.link-button:hover {
+    background-color: blue;
+}
+
+@media (max-width: 600px) {
+    .profile-photo {
+        max-width: 100px;
+    }
+}
